@@ -26,15 +26,16 @@
 }
 
 .cartao__titulo{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--vermelho);
-    padding: 1em 2em 0.5em;
+    padding: 1em 2em 0;
    
 }
 
 .cartao__texto{
-   padding: 1em 2em;
+   padding: 0 1em;
+   font-size: 14px;
    text-indent: 2em;
     line-height: 1.2;
     text-align: left;
@@ -65,7 +66,7 @@ width: 20px;
 height: 20px;
 }
 .cartao__span{
-  width: 30%;
+  width: 40%;
   text-align: start;
 
 }
