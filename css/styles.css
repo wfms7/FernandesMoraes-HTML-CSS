@@ -1,0 +1,56 @@
+@import url(navbar.css);
+@import url(banners.css);
+@import url(cartao.css);
+@import url(informacao.css);
+@import url(footer.css);
+
+
+
+@font-face {
+    font-family: 'Mont' ;
+    src: url("../font/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+
+    --fonte-principal: 'Mont';
+    --preto-verde: #343635;
+    --vermelho:#d90057;
+    --laranja:  #e88700;
+    --verde:#77b8a6 ;
+    --amarelo:#ffe2ba;
+    --amarelo-claro:#F3EEE7;
+    --amarelo-gradient:  linear-gradient(97.54deg,#FFE2BA 53.73% ,rgba(217, 217, 217, 0) 100%) ;
+    --branco:#ffffff;
+
+    
+}
+
+body{
+    font-family:  var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--preto-verde);
+    background-color: var(--amarelo-claro);
+    
+}
+@media screen and (min-width: 1024px) {
+    body{
+        background-color: var(--amarelo);
+    }
+
+    .body__container{
+        width: 1024px;
+        background-color: var(--amarelo-claro);
+        box-shadow:  5px 5px 5px rgba(50, 50, 50, 0.50);
+        margin: 0 auto;
+    }
+
+    .body__informacao{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+}

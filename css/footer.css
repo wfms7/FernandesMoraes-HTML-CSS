@@ -1,0 +1,5 @@
+.footer__container {
+    background: var(--amarelo-gradient);
+    text-align: center;
+    height: 60px;;
+}
